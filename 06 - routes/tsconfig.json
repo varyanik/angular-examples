@@ -1,0 +1,18 @@
+{
+  "angularCompilerOptions": {
+    "entryModule": "app/app.module#AppModule",
+    "genDir": "./ngfactory"
+  },
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esNext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitHelpers": false,
+    "pretty": true,
+    "sourceMap": true,
+    "lib": ["es2018", "dom"],
+    "strictNullChecks": false
+  }
+}

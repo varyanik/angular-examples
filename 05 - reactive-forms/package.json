@@ -1,0 +1,51 @@
+{
+  "name": "reactive-forms",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^8.1.0",
+    "@angular/compiler": "^8.1.0",
+    "@angular/core": "^8.1.0",
+    "@angular/forms": "^8.1.0",
+    "@angular/http": "^7.2.15",
+    "@angular/platform-browser": "^8.1.0",
+    "@angular/platform-browser-dynamic": "^8.1.0",
+    "@angular/router": "^8.1.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.2",
+    "ts-helpers": "^1.1.2",
+    "zone.js": "^0.9.1"
+  },
+  "scripts": {
+    "prestart": "webpack --config webpack.angular.config.js",
+    "start": "webpack-dev-server",
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.2",
+    "@types/jasmine": "^3.3.13",
+    "@types/karma": "^3.0.3",
+    "@types/node": "^12.6.3",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "chalk": "^2.4.2",
+    "core-js": "^3.1.4",
+    "jasmine-core": "^3.4.0",
+    "json-server": "^0.15.0",
+    "karma": "^4.2.0",
+    "karma-chrome-launcher": "^3.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "raw-loader": "1.0.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^7.1.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
