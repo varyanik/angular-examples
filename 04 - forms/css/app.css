@@ -27,7 +27,7 @@ ol {
   padding: 0;
 }
 a {
-  color: #9f72e6;
+  color: rgb(63, 89, 160);
   text-decoration: none;
 }
 input,
@@ -50,7 +50,7 @@ label {
 }
 button {
   cursor: pointer;
-  background: #9f72e6;
+  background: rgb(63, 89, 160);
   border: 0;
   border-radius: 2px;
   padding: 5px 10px;
@@ -59,7 +59,7 @@ button {
 }
 button:disabled {
   cursor: not-allowed;
-  background: #b598e4;
+  background: #7289c9;
 }
 p {
   margin: 5px 0;

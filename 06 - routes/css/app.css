@@ -46,7 +46,7 @@ label {
 }
 button {
   cursor: pointer;
-  background: #72cfe6;
+  background:rgb(63, 89, 160);
   border: 0;
   border-radius: 2px;
   padding: 5px 10px;
@@ -55,7 +55,7 @@ button {
 }
 button:disabled {
   cursor: not-allowed;
-  background: #98dfe4;
+  background: #7289c9;
 }
 p {
   margin: 5px 0;
